@@ -27,8 +27,7 @@ namespace Captain.Caps.Encryption
             {'\'', '"'},
             {',', '<'},
             {'.', '>'},
-            {'.', '>'},
-            {'/', '?'},
+            {'/', '?'}
         };
 
         public string Hash(string input)
